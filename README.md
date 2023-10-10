@@ -19,7 +19,7 @@ Note: The handle command functionality requires the CURL commands to be inside a
 
 
 
-Sample Commands:
+#Sample Commands:
 
 All data: (GET)
 
@@ -47,7 +47,7 @@ PATCH:
 curl -X POST -d "command=curl -X PATCH 'http://localhost:27017/dsci551/books3/1935182420.json' -d '{\"title\":\"Flex 4 in Action Edition 2\"}' " http://localhost:5000/handle_command
 
 
-CRUD operations:
+#CRUD operations:
 
 Add Book:   
 curl -H "Content-Type: application/json" -X POST -d '{"isbn" : "19323945249", "title" : "Codec: Encoders and Decoders", "author": "John Doe", "price" : 10, "description": "short desc"}' http://localhost:5000/add_book

@@ -1,0 +1,5 @@
+pymongo==4.3.3
+flask==2.1.0
+Flask-SocketIO==5.3.2
+pandas==1.5.3
+validators==0.20.0
